@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/012Jerry/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/012Jerry/frontend-project-lvl1/actions)",
   "main": "index.js",
+  "bin": {
+  "brain-games": "bin/brain-games.js"
+},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/012Jerry/frontend-project-lvl1.git"
