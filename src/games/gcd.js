@@ -31,4 +31,3 @@ function correctAnswerGame() {
 
 export { basis, questionGame, correctAnswerGame, descriptionGame };
 
-// преобразовать ответ в строку
