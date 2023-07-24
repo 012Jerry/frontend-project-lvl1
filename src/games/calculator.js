@@ -1,5 +1,7 @@
 import { getRandomIntInclusive, basis } from '../index.js';
 
+const descriptionGame = 'What is the result of the expression?';
+
 let numOne;
 let numTwo;
 let choiceSign;
@@ -31,4 +33,4 @@ function correctAnswerGame() {
   return (result);
 }
 
-export { basis, questionGame, correctAnswerGame };
+export { basis, questionGame, correctAnswerGame, descriptionGame };

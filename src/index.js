@@ -5,10 +5,11 @@ function getRandomIntInclusive(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-function basis(question, correctAnswer) {
+function basis(question, correctAnswer, description) {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
+  console.log(description);
   for (let i = 0; i <= 2; i += 1) {
     console.log(`Question:${question()}`);
     const yourAnswer = readlineSync.question('Your answer: ');

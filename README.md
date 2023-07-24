@@ -9,4 +9,4 @@
 [![asciicast](https://asciinema.org/a/592407.svg)](https://asciinema.org/a/592407)
 
 ### Калькулятор. brain-calc
-[![asciicast](https://asciinema.org/a/598656.svg)](https://asciinema.org/a/598656)
+[![asciicast](https://asciinema.org/a/598747.svg)](https://asciinema.org/a/598747)
