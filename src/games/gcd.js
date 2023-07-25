@@ -1,4 +1,4 @@
-import { getRandomIntInclusive, basis } from '../index.js';
+import { getRandomIntInclusive, launchGame } from '../index.js';
 
 let numOne;
 let numTwo;
@@ -29,5 +29,4 @@ function correctAnswerGame() {
   return commonDivisor;
 }
 
-export { basis, questionGame, correctAnswerGame, descriptionGame };
-
+export { launchGame, questionGame, correctAnswerGame, descriptionGame };
