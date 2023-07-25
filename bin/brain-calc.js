@@ -1,4 +1,5 @@
 #!/usr/bin/env node
-import { launchGame, questionGame, correctAnswerGame, descriptionGame } from '../src/games/calculator.js';
 
-launchGame(questionGame, correctAnswerGame, descriptionGame);
+import { launchGame, getQuestionGame, getCorrectAnswerGame, getDescriptionGame } from '../src/games/calculator.js';
+
+launchGame(getQuestionGame, getCorrectAnswerGame, getDescriptionGame);

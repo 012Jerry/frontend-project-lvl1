@@ -1,12 +1,12 @@
 import { getRandomIntInclusive, launchGame } from '../index.js';
 
-const descriptionGame = 'What is the result of the expression?';
+const getDescriptionGame = 'What is the result of the expression?';
 
 let numOne;
 let numTwo;
 let choiceSign;
 
-function questionGame() {
+function getQuestionGame() {
   choiceSign = getRandomIntInclusive(1, 3);
   numOne = getRandomIntInclusive(1, 10);
   numTwo = getRandomIntInclusive(1, 10);
@@ -21,7 +21,7 @@ function questionGame() {
   return result;
 }
 
-function correctAnswerGame() {
+function getCorrectAnswerGame() {
   let result = 0;
   if (choiceSign === 1) {
     result = numOne + numTwo;
@@ -33,4 +33,4 @@ function correctAnswerGame() {
   return (result);
 }
 
-export { launchGame, questionGame, correctAnswerGame, descriptionGame };
+export { launchGame, getQuestionGame, getCorrectAnswerGame, getDescriptionGame };

@@ -2,16 +2,16 @@ import { getRandomIntInclusive, launchGame } from '../index.js';
 
 let numOne;
 let numTwo;
-const descriptionGame = 'Find the greatest common divisor of given numbers.';
+const getDescriptionGame = 'Find the greatest common divisor of given numbers.';
 
-function questionGame() {
+function getQuestionGame() {
   numOne = getRandomIntInclusive(1, 100);
   numTwo = getRandomIntInclusive(1, 100);
   const result = `${numOne}${' '}${numTwo}`;
   return result;
 }
 
-function correctAnswerGame() {
+function getCorrectAnswerGame() {
   let lesserNumb;
   let moreNumb;
   if (numOne < numTwo) {
@@ -29,4 +29,4 @@ function correctAnswerGame() {
   return commonDivisor;
 }
 
-export { launchGame, questionGame, correctAnswerGame, descriptionGame };
+export { launchGame, getQuestionGame, getCorrectAnswerGame, getDescriptionGame };
